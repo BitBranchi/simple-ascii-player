@@ -3,7 +3,7 @@ Simple ASCII video player made with `Python`, `OpenCV` and `NumPy`.
 A casual project that **you can learn and make it better** than mine within a day.
 
 # Reminder
-If you're going to run this code. Make sure you have installed `requirements.txt` with command below.
+If you're going to run this code. Make sure you have installed `requirements.txt` with command below.<br>
 **`pip install -r requirements.txt`**
 
 # How it works?
