@@ -11,11 +11,12 @@ This is a brief explaination of code.
 
 ## Getting file and target width
 Before you'll play anything you need user to input something to program which is video file. I use OpenCV for media loading and processing frames.
+> Because it's OpenCV, instead of just video you may want to go for something cooler by connecting to camera from your device or network later on.
 For this basic project I want user to input target `width` of output by themselves, `width` will be used for calculating later.
 
 ## Processing frame and dimensions
 Use OpenCV `read()` method to read frame data from file. Then get dimensions of frame (width, height) and change frame color format to `BGR2GRAY`.
-> For simplicity we'll have our frame as grayscale but you can have it be color if you want.
+> For simplicity we'll have our frame as grayscale because the whole frame is just array of number from 0-255 so it's easier to convert to ASCII characters but you can have it be color if you want.
 
 Next I calculate aspect ratio with this formula : **`aspect_ratio = height / width`**
 Now that I've got aspect ratio of the frame, I can calculate output height with this formula : **`target_height = int(target_width * aspect_ratio * 0.5)`**
