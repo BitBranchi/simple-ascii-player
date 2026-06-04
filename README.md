@@ -9,9 +9,10 @@ If you're going to run this code. Make sure you have installed `requirements.txt
 # How it works?
 This is a brief explaination of code.
 
-## Getting file and target width
+## Loading file and define target width for rendering
 Before you'll play anything you need user to input something to program which is video file. I use OpenCV for media loading and processing frames.
 > Because it's OpenCV, instead of just video you may want to go for something cooler by connecting to camera from your device or network later on.
+
 For this basic project I want user to input target `width` of output by themselves, `width` will be used for calculating later.
 
 ## Processing frame and dimensions
